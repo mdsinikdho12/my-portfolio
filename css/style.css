@@ -1,0 +1,297 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: rgb(188, 187, 185);
+    
+    
+}
+/* 
+font-family: "Hind Siliguri", sans-serif; */
+
+body{
+    background-color:  #0B1221;
+}
+
+/* header part css start  */
+.header-area{
+    width: 100%;
+    height: 70px;
+    background-color:transparent;
+    position: sticky;
+    top: 0;
+    z-index: 10000;
+    box-shadow: 0 2px 5px rgba(13, 25, 45, 0.6);
+   
+    
+}
+.header ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+   
+}
+.header ul li{
+    margin-left: 20px;
+    margin-top: 27px;
+}
+.header ul li a{
+    text-decoration: none;
+    color: rgb(202, 191, 191);
+    
+}
+.gif-logo{
+    width: 40px;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 20px;
+
+}
+.logo1-gif{
+    width: 40px;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.home-text{
+    font-family:"Hind Siliguri", sans-serif; 
+    font-size: 17px;
+    font-weight: 500;
+}
+.home-text:hover{
+    color: rgb(219, 219, 219);
+
+}
+.logo-text{
+    font-family:"Hind Siliguri", sans-serif; 
+    font-size: 30px;
+    font-weight: 500; 
+    color: rgb(106, 113, 113);
+    margin-top: 20px;
+}
+/* header part css End  */
+
+.wel-text{
+    font-family:"Hind Siliguri", sans-serif;
+    color: #c9d2d9;
+    
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 200px;
+}
+.socailmedia{
+    font-family:"Hind Siliguri", sans-serif;
+    color: #224b6a;
+}
+
+ /* About part css start   */
+ .commn-heading{
+    font-family:"Hind Siliguri", sans-serif; 
+    font-size: 47px;
+    font-weight: 600;
+    color: azure;
+    text-align: center;
+    margin-top: 70px;
+    transition: all linear 0.2s;
+    
+ }
+ span{
+    color: #2196f3;
+ }
+ .commn-heading:hover{
+    transform: scale(1.1);
+    transition: all linear 0.2s;
+ }
+ .about-line{
+    width: 100%;
+    height: 400px;
+    border-left: 3px solid rgb(194, 194, 0);
+
+ }
+ .About-img{
+    transform: rotate(-10deg);
+    height: 400px;
+    transition: all linear 0.2s;
+    animation-name: photo-ani;
+    animation-iteration-count: 2;
+    animation-duration: .9s;
+
+
+ }
+
+ 
+    
+ 
+
+ .about-my-self{
+    font-family:"Hind Siliguri", sans-serif; 
+    font-size: 19px;
+    font-weight: 400; 
+    color: rgb(255, 255, 255);
+    margin-left: 20px;
+ }
+ .end-text{
+    font-family:"Hind Siliguri", sans-serif; 
+    font-size: 14px;
+    font-weight: 500; 
+    color: rgb(72, 70, 70);
+    margin-left: 20px;
+ }
+ .code-by-sm{
+    font-family:"Hind Siliguri", sans-serif; 
+    font-size: 15px;
+    font-weight: 700; 
+    color: rgb(72, 70, 70);
+    margin-left: 14px;
+    margin-top: 4px;
+ }
+ .page-name{
+    text-decoration: none;
+    color: rgb(193, 193, 193);
+ }
+ /* About part css End  */
+
+ /* project part css start  */
+ .project-heading{
+    font-family:"Hind Siliguri", sans-serif ;
+    font-size: 40px;
+    color: beige;
+    font-weight: 700;
+   
+ }
+ .project-svg{
+    margin-top: 200px;
+    height: 200px;
+    transition: all linear 0.2s;
+
+
+
+   
+    
+ }
+
+ 
+ .project-svg:hover{
+   transform: rotate(9deg);
+   transition: all linear 0.2s;
+ }
+ .project-card{
+    height:  257px;
+    width:  225px;
+    background-color:rgb(11, 17, 32) ;
+    border-radius: 15px;
+    border: 1px solid rgb(248, 250, 252, 0.08);
+    margin-top: 200px;
+    /* display: flex;
+    justify-content: center; */
+    
+ }
+ .project-card-2{
+    height:  257px;
+    width:  225px;
+    background-color:rgb(11, 17, 32) ;
+    border-radius: 15px;
+    border: 1px solid rgb(248, 250, 252, 0.08);
+    margin-top: 200px;
+    /* display: flex;
+    justify-content: center; */
+    
+ }
+ .project-card-3{
+    height:  257px;
+    width:  225px;
+    background-color:rgb(11, 17, 32) ;
+    border-radius: 15px;
+    border: 1px solid rgb(248, 250, 252, 0.08);
+    margin-top: 40px;
+    /* display: flex;
+    justify-content: center; */
+    
+ }
+ 
+ .project-card-4{
+    height:  257px;
+    width:  225px;
+    background-color:rgb(11, 17, 32) ;
+    border-radius: 15px;
+    border: 1px solid rgb(248, 250, 252, 0.08);
+    margin-top: 40px;
+    /* display: flex;
+    justify-content: center; */
+   
+    
+    
+ }
+ 
+
+
+ .project-logo{
+   height: 46px;
+   width: 50px;
+   margin-top: 30px;
+   margin-left: 88px;
+  
+   
+ }
+.project-title{
+    font-family:"Hind Siliguri", sans-serif ;
+    font-size: 15px;
+    color: beige;
+    font-weight: 500;
+    
+   margin-top: 12px;
+    text-align: center;
+    line-height: 24px;
+}
+.project-discription{
+    font-family:"Hind Siliguri", sans-serif ;
+    font-size: 12px;
+    color: rgb(100, 100, 96);
+    font-weight: 500;
+    text-align: center;
+    
+}
+.project-btn{
+    width: 110px;
+    height: 28px;
+    border-radius: 25px;
+    border: 1px solid #2196f3;
+    margin-left: 54px;
+}
+.more-link{
+    width: 17px;
+    height: 17px;
+    margin: 5px;
+    margin-left: 10px;
+    
+}
+.more-text{
+    font-family:"Hind Siliguri", sans-serif ;
+    font-size: 12px;
+    margin: 0;
+    color:#2196f3 ;
+    font-weight: 700;
+    margin-top: 10px;
+}
+.project-motivational-text{
+    font-family:"Hind Siliguri", sans-serif ;
+    font-size: 20px;
+    color: aliceblue;
+}
+.project-span{
+    border-radius: 12px;
+    background-color: yellow;
+    color: black;
+    height: 20px;
+    width: auto;
+    font-weight: 700;
+}
+ /* project part css End */

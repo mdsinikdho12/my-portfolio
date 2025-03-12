@@ -1,0 +1,143 @@
+/* // X-Small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap */
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 320px )and (max-width: 575px ){
+
+    .header ul li{
+        margin-left: 20px;
+        margin-top: -30px;
+    }
+    .header ul li a{
+        text-decoration: none;
+        color: rgb(132, 146, 148);
+        display: inline-block;
+        
+    }
+    .gif-logo{
+        width: 40px;
+        height: 40px;
+        margin-top: -33px;
+        margin-left: 20px;
+    
+    }
+
+    .commn-heading{
+        font-family:"Hind Siliguri", sans-serif; 
+        font-size: 30px;
+        font-weight: 600;
+        color: azure;
+        text-align: center;
+        margin-top: 60px;
+
+        transition: all linear 0.2s;
+        
+     }
+     .About-img{
+        transform: rotate(-10deg);
+        height: 200px;
+        transition: all linear 0.2s;
+        animation-name: photo-ani;
+        animation-iteration-count: 2;
+        animation-duration: .9s;
+        
+    
+    
+     }
+     .about-my-self{
+        font-family:"Hind Siliguri", sans-serif; 
+        font-size: 10px;
+        font-weight: 400;
+        margin-top: 40px; 
+        color: rgb(255, 255, 255);
+        margin-left: 20px;
+     }
+     .about-line{
+        width: 100%;
+        height: 200px;
+        border-left: 3px solid rgb(194, 194, 0);
+     }
+
+     .project-heading{
+        font-family:"Hind Siliguri", sans-serif ;
+        font-size: 40px;
+        color: beige;
+        font-weight: 700;
+        margin-left: 50px;
+       
+     }
+     .project-svg{
+        margin-top: 50px;
+        height: 200px;
+        transition: all linear 0.2s;
+    
+    
+    
+       
+        
+     }
+     .project-card{
+        height:  257px;
+        width:  225px;
+        background-color:rgb(11, 17, 32) ;
+        border-radius: 15px;
+        border: 1px solid rgb(248, 250, 252, 0.08);
+        margin-top: 40px;
+        margin-left: 100px;
+        /* display: flex;
+        justify-content: center; */
+        
+     }
+     .project-card-2{
+        height:  257px;
+        width:  225px;
+        background-color:rgb(11, 17, 32) ;
+        border-radius: 15px;
+        border: 1px solid rgb(248, 250, 252, 0.08);
+        margin-top: 50px;
+        margin-left: 100px;
+        /* display: flex;
+        justify-content: center; */
+        
+     }
+     .project-card-3{
+        height:  257px;
+        width:  225px;
+        background-color:rgb(11, 17, 32) ;
+        border-radius: 15px;
+        border: 1px solid rgb(248, 250, 252, 0.08);
+        margin-top: 40px;
+        margin-left: 100px;
+        /* display: flex;
+        justify-content: center; */
+        
+     }
+     
+     .project-card-4{
+        height:  257px;
+        width:  225px;
+        background-color:rgb(11, 17, 32) ;
+        border-radius: 15px;
+        border: 1px solid rgb(248, 250, 252, 0.08);
+        margin-top: 40px;
+        margin-left: 100px;
+        /* display: flex;
+        
+        justify-content: center; */
+       
+        
+        
+     }
+     
+}
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { ... }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { ... }
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { ... }
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { ... }
